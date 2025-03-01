@@ -11,8 +11,29 @@
         function sumar(valor1,valor2)
         {
             var resultado=valor1+valor2
-            document.getElementById("resultado").innerHTML="El resultado es:"+resultado
+            document.getElementById("resultado").innerHTML="El resultado de la suma es:"+resultado
         }
     </script>
+
+     <button onclick="javascript1: restar(100,50);">resta</button>
+     <script>
+         function restar(valor1,valor2)
+         {
+             var resultado=valor1-valor2
+             document.getElementById("resultado").innerHTML="El resultado de la resta es:"+resultado
+         }
+     </script>
+
+     <button onclick="javascript1: multiplicar(25,25);">Multiplicación</button>
+     <script>
+         function multiplicar(valor1,valor2)
+         {
+             var resultado=valor1 * valor2
+             document.getElementById("resultado").innerHTML="El resultado de la multiplicación es:"+resultado
+         }
+     </script>
+
+
+    
 </body>
 </html>
